@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <style>
+            header{
+            width:100%;
+            height:90px;
+        }
+        </style>
+    </head>
+    <header>
+        <center>
+            <h1>
+                agendar atendimento
+            </h1>
+        </center>
+    </header>
+    <body>
+        <style>
+            body{
+                background-image:linear-gradient(to bottom,transparent,#00CED1);
+            }  
+        </style>
+        <center>
+            <form method="post" >
+             <p>
+             <label for="nome"> Nome </label>
+             <input class="campp" type="text" name="nome" size="15" id="nome">
+             </p>  
+             <p>
+             <label>horario: </label>
+             <input list="hora">
+             <datalist id="hora">
+             <option value="9:30" />
+             <option value="10:00" />
+             <option value="14:00" />
+             <option value="14:30" />
+             <option value="15:00" />
+             <option value="15:30" />
+             <option value="16:00" />
+             <option value="16:30" />
+             <option value="17:00" />
+             <option value="17:30" />
+             <option value="18:00" />
+             <option value="18:30" />
+        </datalist>
+             <p/>
+             <p>
+             <label>dia da semana: </label>
+             <input list="data">
+             <datalist id="data">
+             <option value="segunda-feira" />
+             <option value="terça-feira" />
+             <option value="quarta-feira" />
+             <option value="quinta-feira" />
+             <option value="sexta-feira" />
+             <option value="sabado" />
+        </datalist>
+             <p/>
+             <p>
+             <label>trabalho desejado: </label>
+             <input list="servico">
+             <datalist id="servico">
+             <option value="banho" />
+             <option value="tosa" />
+        </datalist>
+             <p/>
+    </form>
+             <p>
+                 <input type="submit" value="salvar">
+             </p>
+    </center>
+    </body>
+</html>
